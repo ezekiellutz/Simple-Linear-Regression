@@ -289,6 +289,7 @@ FvCO2_MAE = np.mean(np.absolute(avg_fc_test_y_ - avg_fc_test_y))
 FvCO2_MSE = np.mean((avg_fc_test_y_ - avg_fc_test_y) ** 2)
 FvCO2_R2 = r2_score(avg_fc_test_y , avg_fc_test_y_)
 
+#determines the linear relationship with the highest R squared value and then instructs the user as to what that strongest relationship is.
 if (EvCO2_R2 >= CvCO2_R2) and (EvCO2_R2 >= FvCO2_R2):
    largest = round(EvCO2_R2*100,2)
    print(f"""\
