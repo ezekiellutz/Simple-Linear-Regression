@@ -92,7 +92,7 @@ eng_test_x = []
 eng_test_y = []
 eng_test_y_ = []
 
-#loops through the entire training process ten-thousand times and append the values for x, y, and y_ to a set
+#loops through the entire testing process ten-thousand times and append the values for x, y, and y_ to a set
 for i in range(10000):
 
 	x = np.asanyarray(test[['Engine Size']])
@@ -176,7 +176,7 @@ cyc_test_x = []
 cyc_test_y = []
 cyc_test_y_ = []
 
-#loops through the entire training process ten-thousand times and append the values for x, y, and y_ to a set
+#loops through the entire testing process ten-thousand times and append the values for x, y, and y_ to a set
 for i in range(10000):
 
 	x = np.asanyarray(test[['Cylinders']])
@@ -260,7 +260,7 @@ fc_test_x = []
 fc_test_y = []
 fc_test_y_ = []
 
-#loops through the entire training process ten-thousand times and append the values for x, y, and y_ to a set
+#loops through the entire testing process ten-thousand times and append the values for x, y, and y_ to a set
 for i in range(10000):
 
 	x = np.asanyarray(test[['Fuel Consumption']])
