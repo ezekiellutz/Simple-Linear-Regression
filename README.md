@@ -4,7 +4,7 @@ A linear model that accurately picks the best independent variable to predict ve
 # Installation Instructions
 Download both the .py and .csv files and place them in the same directory on the PC. Run the code from your IDE of choice.
 
-It is recommended that this script be ran in Sublime Text 3.2.2. 
+It is recommended that this script be run in Sublime Text 3.2.2. 
 
 # Description
 This python script illustrates how to use linear regression models to determine linear relationships between two variables. To illustrate this, new vehicle data was used from the Natural Resources Canada website (https://www.nrcan.gc.ca/). This website provides .csv files of new vehicle information for a variety of model years. In this case, data collected for 2021 model year vehicles was used. 
