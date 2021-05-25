@@ -5,3 +5,7 @@ A linear model that accurately picks the best independent variable to predict ve
 Download both the .py and .csv files and place them in the same directory on the PC. Run the code from your IDE of choice.
 
 It is recommended that this python script be ran in Sublime Text 3.2.2. 
+
+# Description
+
+![Alt text](C:\Users\18154\Pictures\Figure_1.png?raw=true "Title")
