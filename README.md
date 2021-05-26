@@ -13,7 +13,8 @@ Once the .csv file has been downloaded and placed in the same directory as the .
 
 The python script will first produce a histogram of the entire data set for the user to see. This part of the code acts as a visual aid to help the user visualize the entire data set more easily. 
 
-  ![Figure_1](https://user-images.githubusercontent.com/83550613/119499749-a2a70e80-bd2c-11eb-89c4-2328489861e9.png)
+  Figure 1:
+      ![Figure_1](https://user-images.githubusercontent.com/83550613/119499749-a2a70e80-bd2c-11eb-89c4-2328489861e9.png)
 
 After this histogram is produced, the script will begin building a model for each parameter of interest, plotted against CO2 emissions, to see which parameter has the strongest linear relationship with the CO2 emissions. In this case, the three parameters of interest are engine size, number of cylinders, and fuel consumption. 
 
@@ -32,5 +33,14 @@ For each parameter of interest the script will:
 
 Once the script has performed the above actions for each parameter of interest, it will then perform a comparison of the R squared score for each model. The model with the highest R squared score will be selected as having the strongest linear relationship with CO2 emissions. The script will then instruct the user as to which parameter of interest had the strongest linear relationship with CO2 emissions and print out the R squared score for that model. 
 
+      The strongest linear relationship exists between Fuel Consumption and CO2 Emissions of vehicles produced in 2021.
+
+      The linear regression model developed here found an R squared value of 0.958100128891766.
+
+      This means that the model created here explains 95.81% of the variation in the response variable (CO2 Emissions) around its mean.
+
+      Therefore, using Fuel Consumption to predict the CO2 Emissions for a newly manufactured car will produce the most accurate results. 
+
+      [Finished in 311.3s]
       
 
