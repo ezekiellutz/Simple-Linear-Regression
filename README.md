@@ -7,7 +7,7 @@ Download both the .py and .csv files and place them in the same directory on the
 It is recommended that this script be run in Sublime Text 3.2.2. 
 
 # Description
-This python script illustrates how to use linear regression models to determine linear relationships between two variables. To illustrate this, new vehicle data was used from the Natural Resources Canada website (https://www.nrcan.gc.ca/). This website provides .csv files of new vehicle information for a variety of model years. In this case, data collected for 2021 model year vehicles was used. 
+This python script illustrates how to use linear regression models to determine linear relationships between two variables. To illustrate this, new vehicle data was used from the Natural Resources Canada website (https://www.nrcan.gc.ca/). This website provides .csv files of new vehicle information for a variety of model years. In this case, data collected for 2021 model year vehicles was used. However, the code can be easily modified to analyze data collected for other model years as well.
 
 Once the .csv file has been downloaded and placed in the same directory as the .py file, the code can be ran to produce graphs. 
 
