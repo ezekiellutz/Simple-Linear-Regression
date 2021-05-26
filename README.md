@@ -21,16 +21,16 @@ After this histogram is produced, the script will begin building a model for eac
 
 For each parameter of interest the script will:
 
-1.) Create a scatter plot of the parameter of interest against CO2 emissions.
-2.) Create a linear regression of the model.
-3.) Train this model using randomly selected data points in the data set (80%). 
-4.) Loop through the model 10,000 times to generate 10,000 values for the slope (theta 0) and intercept (theta 1) of the best fit line.
-5.) Find the the average for theta 0 and theta 1 from the 10,000 models to find the parameters of the best fit line for the data.
-6.) Plot the best fit against the scatter plot of the parameter of interest against CO2 emissions. 
-7.) Test the model using randomly selected data points in the data set (20%).
-8.) Loop through the model 10,000 times to generate 10,000 values for x, y, and y_.
-9.) Find the average for x, y, and y_ from the 10,000 models. 
-10.) Use the average values for x, y, and y_ to find the average mean absolute error (MAE), residual sum of squares (MSE), and an R squared score.
+	1.) Create a scatter plot of the parameter of interest against CO2 emissions.
+	2.) Create a linear regression of the model.
+	3.) Train this model using randomly selected data points in the data set (80%). 
+	4.) Loop through the model 10,000 times to generate 10,000 values for the slope (theta 0) and intercept (theta 1) of the best fit line.
+	5.) Find the the average for theta 0 and theta 1 from the 10,000 models to find the parameters of the best fit line for the data.
+	6.) Plot the best fit against the scatter plot of the parameter of interest against CO2 emissions. 
+	7.) Test the model using randomly selected data points in the data set (20%).
+	8.) Loop through the model 10,000 times to generate 10,000 values for x, y, and y_.
+	9.) Find the average for x, y, and y_ from the 10,000 models. 
+	10.) Use the average values for x, y, and y_ to find the average mean absolute error (MAE), residual sum of squares (MSE), and an R squared score.
 
 Here are the scatter plots for each parameter of interest:
 
