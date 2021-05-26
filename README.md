@@ -57,9 +57,9 @@ Once the script has performed the above actions for each parameter of interest, 
 
 Here is an example of what the script will print to the console:
 
-      The strongest linear relationship exists between Fuel Consumption and CO2 Emissions of vehicles produced in 2021.
+      The strongest linear relationship exists between Fuel Consumption and CO2 Emissions for vehicles produced in 2021.
 
-      The linear regression model developed here found an R squared value of 0.958100128891766.
+      The linear regression model developed here found an R squared score of 0.958100128891766.
 
       This means that the model created here explains 95.81% of the variation in the response variable (CO2 Emissions) around its mean.
 
@@ -67,4 +67,16 @@ Here is an example of what the script will print to the console:
 
       [Finished in 311.3s]
       
+# Out-of-Sample Accuracy
 
+A common issue that can be encountered when building linear regression models is high training accuracy and low out-of-sample accuracy. When a model has an overly high training accuracy it may overfit the data. When overfitting of the data occurrs, the results of the linear regression model will be high for the data set used to build the model, but relatively low when a different (but still applicable) data set is used. 
+
+The model built here uses the train/test split approach, which avoids this issue by preventing the testing set from being part of the training set, and vice-versa. To measure the out-of-sample accuracy of the model, the R squared score is used. The R squared score will be a value between 0 and 1, with a higher R squared score indicating a model that accruately fits the model. In general, the higher the R squared score, the better. 
+
+This model was tested with three different data sets, each one available from the website mentioned above. (https://www.nrcan.gc.ca/)
+
+For the 2021 Model Year, the linear regression model found the strongest linear relationship between fuel consumption and CO2 emissions. On average its R squared value was 0.95.
+
+For the 2020 Model Year, the linear regression model found the strongest linear relationship between fuel consumption and CO2 emissions. On average its R squared value was 0.92.
+
+For the 2019 Model Year, the linear regression model found the strongest linear relationship between fuel consumption and CO2 emissions. On average its R squared value was 0.88.
