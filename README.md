@@ -11,7 +11,9 @@ This python script illustrates how to use linear regression models to determine 
 
 Once the .csv file has been downloaded and placed in the same directory as the .py file, the code can be ran to produce graphs. 
 
-The python script will first produce a histogram of the entire data set for the user to see. This part of the code acts as a visual aid to help the user visualize the entire data set more easily. 
+The python script will first produce a histogram of the entire data set for the user to see. This part of the code acts as a visual aid to help the user visualize the entire data set more easily.
+
+Figure 1:
                       ![Figure_1](https://user-images.githubusercontent.com/83550613/119499749-a2a70e80-bd2c-11eb-89c4-2328489861e9.png)
 
 
@@ -32,16 +34,18 @@ For each parameter of interest the script will:
       10.) Use the average values for x, y, and y_ to find the average mean absolute error (MAE), residual sum of squares (MSE), and an R squared score.
 
 Here are the scatter plots for each parameter of interest:
+
+Figure 2:
                     ![Figure_2](https://user-images.githubusercontent.com/83550613/119589554-a5d7e400-bd98-11eb-8a8e-2d1a17aa3d98.png)
-                    
+Figure 3:
                     ![Figure_3](https://user-images.githubusercontent.com/83550613/119589582-b12b0f80-bd98-11eb-8b89-dbcb545c959b.png)
-                    
+Figure 4:
                     ![Figure_4](https://user-images.githubusercontent.com/83550613/119589587-b2f4d300-bd98-11eb-87a2-035b1b9c2d48.png)
-                    
+Figure 5:
                     ![Figure_5](https://user-images.githubusercontent.com/83550613/119589592-b4be9680-bd98-11eb-8478-99d7e2344951.png)
-                    
+Figure 6:
                     ![Figure_6](https://user-images.githubusercontent.com/83550613/119589593-b6885a00-bd98-11eb-8e31-7d783decf391.png)
-                    
+Figure 7:
                     ![Figure_7](https://user-images.githubusercontent.com/83550613/119589597-b8eab400-bd98-11eb-8a21-4582ff054e6b.png)
 
 
