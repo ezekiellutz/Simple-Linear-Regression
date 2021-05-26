@@ -71,7 +71,7 @@ Here is an example of what the script will print to the console:
 
 A common issue that can be encountered when building linear regression models is high training accuracy and low out-of-sample accuracy. When a model has an overly high training accuracy it may overfit the data. When overfitting of the data occurrs, the results of the linear regression model will be high for the data set used to build the model, but relatively low when a different (but still applicable) data set is used. 
 
-The model built here uses the train/test split approach, which avoids this issue by preventing the testing set from being part of the training set, and vice-versa. To measure the out-of-sample accuracy of the model, the R squared score is used. The R squared score will be a value between 0 and 1, with a higher R squared score indicating a model that accruately fits the model. In general, the higher the R squared score, the better. 
+The model built here uses the train/test split approach, which avoids this issue by preventing the testing set from being part of the training set, and vice-versa. To measure the out-of-sample accuracy of the model, the R squared score is used. The R squared score will be a value between 0 and 1, with a higher R squared score generally indicating a model that accurately fits the data. In most cases, the higher the R squared score, the better. 
 
 This model was tested with three different data sets, each one available from the website mentioned above. (https://www.nrcan.gc.ca/)
 
