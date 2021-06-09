@@ -67,7 +67,7 @@ Here is an example of what the script will print to the console:
 
       [Finished in 311.3s]
       
-# Why is the R² score Important?
+# Why is the R² Score Important?
 
 Good question!
 
@@ -79,7 +79,7 @@ For example:
 
 In the figure above, the plot on the left has an R squared score of 0.38 or 38%. Conversely, the plot on the right has an R squared score of 0.87 or 87%. Because both of these models are created using the exact same algorithm, the R squared score here can be used to indicate how strongly linear the relationship between the dependent and independent variable is. This is possible because the model will always try to maximize the R squared score in order to make the model as accurate as possible. If the model is unable to obtain an acceptable R squared score, it is reasonable to assume that a strong linear relationship between the dependent and independent variable does not exist. 
 
-It is extremely important in linear regression modeling to have a strong linear relationship between the independent variable(s) and the dependent variable. This is especially true with mupltiple linear regression, where it is extremely important to use the correct independent variables (as well as the correct amount) to create an accurate model that is not overfit. 
+It is extremely important in linear regression modeling to have a strong linear relationship between the independent variable(s) and the dependent variable. This is especially true with multiple linear regression, where it is extremely important to use the correct independent variables (as well as the correct amount) to create an accurate model that is not overfit. 
 
 In summary, the script created here can assist in picking the best dependent variables to use when building a multiple linear regression model. To see this concept in action, check out : https://github.com/ezekiellutz/Multiple-Linear-Regression
 
