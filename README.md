@@ -67,6 +67,17 @@ Here is an example of what the script will print to the console:
 
       [Finished in 311.3s]
       
+# Why is the R² score Important?
+
+Good question!
+
+The R squared score, often referred to as the coefficient of determination, is a statistical measure of how close the data fits the fitted regression line. While it is ordinarily used as a metric to quantify the percentage of response variable variation that is explained by a given linear model, it can also be used as a way to determine how linear the relationship between your dependent and independent variable is. 
+
+For example:
+![example](https://user-images.githubusercontent.com/83550613/121426750-8c5a9e80-c939-11eb-867b-84dea00d8c50.jpg)
+
+
+
 # Out-of-Sample Accuracy
 
 A common issue that can be encountered when building linear regression models is high training accuracy and low out-of-sample accuracy. When a model has an overly high training accuracy it may overfit the data. When overfitting of the data occurrs, the results of the linear regression model will be high for the data set used to build the model, but relatively low when a different (but still applicable) data set is used. 
