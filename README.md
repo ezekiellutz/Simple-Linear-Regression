@@ -73,13 +73,15 @@ Good question!
 
 The R squared score, often referred to as the coefficient of determination, is a statistical measure of how close the data fits the fitted regression line. While it is ordinarily used as a metric to quantify the percentage of response variable variation that is explained by a given linear model, it can also be used as a way to determine how linear the relationship between your dependent and independent variable is. 
 
-See the figure below:
+For example:
 
 ![example](https://user-images.githubusercontent.com/83550613/121426750-8c5a9e80-c939-11eb-867b-84dea00d8c50.jpg)
 
 In the figure above, the plot on the left has an R squared score of 0.38 or 38%. Conversely, the plot on the right has an R squared score of 0.87 or 87%. Because both of these models are created using the exact same algorithm, the R squared score here can be used to indicate how strongly linear the relationship between the dependent and independent variable is. This is possible because the model will always try to maximize the R squared score in order to make the model as accurate as possible. If the model is unable to obtain an acceptable R squared score, it is reasonable to assume that a strong linear relationship between the dependent and independent variable does not exist. 
 
-It is extremely important in linear regression modeling to have a strong linear relationship between 
+It is extremely important in linear regression modeling to have a strong linear relationship between the independent variable(s) and the dependent variable. This is especially true with mupltiple linear regression, where it is extremely important to use the correct independent variables (as well as the correct amount) to create an accurate model that is not overfit. 
+
+In summary, the script created here can assist in picking the best dependent variables to use when building a multiple linear regression model. To see this concept in action, check out : https://github.com/ezekiellutz/Multiple-Linear-Regression
 
 # Out-of-Sample Accuracy
 
